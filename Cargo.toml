@@ -1,0 +1,22 @@
+[package]
+name = "add_pieces"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+vc-processors = { version = "0.1.9", default-features = false, features = ["builtin"] }
+
+[patch.crates-io]
+filecoin-hashers = { git = "https://github.com/ipfs-force-community/rust-fil-proofs", package = "filecoin-hashers", branch = "perf/0x5459/optimize_add_piece"}
+filecoin-proofs = { git = "https://github.com/ipfs-force-community/rust-fil-proofs", package = "filecoin-proofs" , branch = "perf/0x5459/optimize_add_piece"}
+fr32 = { git = "https://github.com/ipfs-force-community/rust-fil-proofs", package = "fr32" , branch = "perf/0x5459/optimize_add_piece"}
+sha2raw = { git = "https://github.com/ipfs-force-community/rust-fil-proofs", package = "sha2raw" , branch = "perf/0x5459/optimize_add_piece"}
+storage-proofs-core = { git = "https://github.com/ipfs-force-community/rust-fil-proofs", package = "storage-proofs-core" , branch = "perf/0x5459/optimize_add_piece"}
+storage-proofs-porep = { git = "https://github.com/ipfs-force-community/rust-fil-proofs", package = "storage-proofs-porep" , branch = "perf/0x5459/optimize_add_piece"}
+storage-proofs-post = { git = "https://github.com/ipfs-force-community/rust-fil-proofs", package = "storage-proofs-post" , branch = "perf/0x5459/optimize_add_piece"}
+storage-proofs-update = { git = "https://github.com/ipfs-force-community/rust-fil-proofs", package = "storage-proofs-update" , branch = "perf/0x5459/optimize_add_piece"}
