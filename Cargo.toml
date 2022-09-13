@@ -8,8 +8,10 @@ edition = "2021"
 [dependencies]
 anyhow = "1"
 tracing = "0.1"
-tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+tracing-subscriber = { version = "0.3", features = ["env-filter", "time", "local-time"] }
 vc-processors = { version = "0.1.9", default-features = false, features = ["builtin"] }
+time = "0.3"
+crossterm = "0.20"
 
 [patch.crates-io]
 filecoin-hashers = { git = "https://github.com/ipfs-force-community/rust-fil-proofs", package = "filecoin-hashers", branch = "perf/0x5459/optimize_add_piece"}
