@@ -770,7 +770,7 @@ dependencies = [
 [[package]]
 name = "filecoin-hashers"
 version = "6.1.1"
-source = "git+https://github.com/ipfs-force-community/rust-fil-proofs?branch=perf/0x5459/optimize_add_piece#a0983916611aee73085c34582551f963163cf467"
+source = "git+https://github.com/ipfs-force-community/rust-fil-proofs?rev=669db598519c4975c4bc9013ba1cfaaf66dedcf3#669db598519c4975c4bc9013ba1cfaaf66dedcf3"
 dependencies = [
  "anyhow",
  "bellperson",
@@ -789,7 +789,7 @@ dependencies = [
 [[package]]
 name = "filecoin-proofs"
 version = "11.1.1"
-source = "git+https://github.com/ipfs-force-community/rust-fil-proofs?branch=perf/0x5459/optimize_add_piece#a0983916611aee73085c34582551f963163cf467"
+source = "git+https://github.com/ipfs-force-community/rust-fil-proofs?rev=669db598519c4975c4bc9013ba1cfaaf66dedcf3#669db598519c4975c4bc9013ba1cfaaf66dedcf3"
 dependencies = [
  "anyhow",
  "bellperson",
@@ -951,7 +951,7 @@ dependencies = [
 [[package]]
 name = "fr32"
 version = "4.1.1"
-source = "git+https://github.com/ipfs-force-community/rust-fil-proofs?branch=perf/0x5459/optimize_add_piece#a0983916611aee73085c34582551f963163cf467"
+source = "git+https://github.com/ipfs-force-community/rust-fil-proofs?rev=669db598519c4975c4bc9013ba1cfaaf66dedcf3#669db598519c4975c4bc9013ba1cfaaf66dedcf3"
 dependencies = [
  "anyhow",
  "bellperson",
@@ -2378,7 +2378,7 @@ dependencies = [
 [[package]]
 name = "sha2raw"
 version = "6.1.1"
-source = "git+https://github.com/ipfs-force-community/rust-fil-proofs?branch=perf/0x5459/optimize_add_piece#a0983916611aee73085c34582551f963163cf467"
+source = "git+https://github.com/ipfs-force-community/rust-fil-proofs?rev=669db598519c4975c4bc9013ba1cfaaf66dedcf3#669db598519c4975c4bc9013ba1cfaaf66dedcf3"
 dependencies = [
  "block-buffer 0.9.0",
  "byteorder 1.4.3",
@@ -2472,7 +2472,7 @@ checksum = "a2eb9349b6444b326872e140eb1cf5e7c522154d69e7a0ffb0fb81c06b37543f"
 [[package]]
 name = "storage-proofs-core"
 version = "11.1.1"
-source = "git+https://github.com/ipfs-force-community/rust-fil-proofs?branch=perf/0x5459/optimize_add_piece#a0983916611aee73085c34582551f963163cf467"
+source = "git+https://github.com/ipfs-force-community/rust-fil-proofs?rev=669db598519c4975c4bc9013ba1cfaaf66dedcf3#669db598519c4975c4bc9013ba1cfaaf66dedcf3"
 dependencies = [
  "aes",
  "anyhow",
@@ -2513,7 +2513,7 @@ dependencies = [
 [[package]]
 name = "storage-proofs-porep"
 version = "11.1.1"
-source = "git+https://github.com/ipfs-force-community/rust-fil-proofs?branch=perf/0x5459/optimize_add_piece#a0983916611aee73085c34582551f963163cf467"
+source = "git+https://github.com/ipfs-force-community/rust-fil-proofs?rev=669db598519c4975c4bc9013ba1cfaaf66dedcf3#669db598519c4975c4bc9013ba1cfaaf66dedcf3"
 dependencies = [
  "anyhow",
  "bellperson",
@@ -2555,7 +2555,7 @@ dependencies = [
 [[package]]
 name = "storage-proofs-post"
 version = "11.1.1"
-source = "git+https://github.com/ipfs-force-community/rust-fil-proofs?branch=perf/0x5459/optimize_add_piece#a0983916611aee73085c34582551f963163cf467"
+source = "git+https://github.com/ipfs-force-community/rust-fil-proofs?rev=669db598519c4975c4bc9013ba1cfaaf66dedcf3#669db598519c4975c4bc9013ba1cfaaf66dedcf3"
 dependencies = [
  "anyhow",
  "bellperson",
@@ -2583,7 +2583,7 @@ dependencies = [
 [[package]]
 name = "storage-proofs-update"
 version = "11.1.1"
-source = "git+https://github.com/ipfs-force-community/rust-fil-proofs?branch=perf/0x5459/optimize_add_piece#a0983916611aee73085c34582551f963163cf467"
+source = "git+https://github.com/ipfs-force-community/rust-fil-proofs?rev=669db598519c4975c4bc9013ba1cfaaf66dedcf3#669db598519c4975c4bc9013ba1cfaaf66dedcf3"
 dependencies = [
  "anyhow",
  "bellperson",

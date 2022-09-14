@@ -14,11 +14,11 @@ time = "0.3"
 crossterm = "0.20"
 
 [patch.crates-io]
-filecoin-hashers = { git = "https://github.com/ipfs-force-community/rust-fil-proofs", package = "filecoin-hashers", branch = "perf/0x5459/optimize_add_piece"}
-filecoin-proofs = { git = "https://github.com/ipfs-force-community/rust-fil-proofs", package = "filecoin-proofs" , branch = "perf/0x5459/optimize_add_piece"}
-fr32 = { git = "https://github.com/ipfs-force-community/rust-fil-proofs", package = "fr32" , branch = "perf/0x5459/optimize_add_piece"}
-sha2raw = { git = "https://github.com/ipfs-force-community/rust-fil-proofs", package = "sha2raw" , branch = "perf/0x5459/optimize_add_piece"}
-storage-proofs-core = { git = "https://github.com/ipfs-force-community/rust-fil-proofs", package = "storage-proofs-core" , branch = "perf/0x5459/optimize_add_piece"}
-storage-proofs-porep = { git = "https://github.com/ipfs-force-community/rust-fil-proofs", package = "storage-proofs-porep" , branch = "perf/0x5459/optimize_add_piece"}
-storage-proofs-post = { git = "https://github.com/ipfs-force-community/rust-fil-proofs", package = "storage-proofs-post" , branch = "perf/0x5459/optimize_add_piece"}
-storage-proofs-update = { git = "https://github.com/ipfs-force-community/rust-fil-proofs", package = "storage-proofs-update" , branch = "perf/0x5459/optimize_add_piece"}
+filecoin-hashers = { git = "https://github.com/ipfs-force-community/rust-fil-proofs", package = "filecoin-hashers", rev = "669db598519c4975c4bc9013ba1cfaaf66dedcf3"}
+filecoin-proofs = { git = "https://github.com/ipfs-force-community/rust-fil-proofs", package = "filecoin-proofs" , rev = "669db598519c4975c4bc9013ba1cfaaf66dedcf3"}
+fr32 = { git = "https://github.com/ipfs-force-community/rust-fil-proofs", package = "fr32" , rev = "669db598519c4975c4bc9013ba1cfaaf66dedcf3"}
+sha2raw = { git = "https://github.com/ipfs-force-community/rust-fil-proofs", package = "sha2raw" , rev = "669db598519c4975c4bc9013ba1cfaaf66dedcf3"}
+storage-proofs-core = { git = "https://github.com/ipfs-force-community/rust-fil-proofs", package = "storage-proofs-core" , rev = "669db598519c4975c4bc9013ba1cfaaf66dedcf3"}
+storage-proofs-porep = { git = "https://github.com/ipfs-force-community/rust-fil-proofs", package = "storage-proofs-porep" , rev = "669db598519c4975c4bc9013ba1cfaaf66dedcf3"}
+storage-proofs-post = { git = "https://github.com/ipfs-force-community/rust-fil-proofs", package = "storage-proofs-post" , rev = "669db598519c4975c4bc9013ba1cfaaf66dedcf3"}
+storage-proofs-update = { git = "https://github.com/ipfs-force-community/rust-fil-proofs", package = "storage-proofs-update" , rev = "669db598519c4975c4bc9013ba1cfaaf66dedcf3"}
